@@ -1,0 +1,21 @@
+
+interface Animal {
+	
+	void shout();
+	}
+public class T01 {
+
+	public static void animalShout(Animal an) {
+		an.shout();  
+		} 
+	public static void main(String[] args) {
+		
+		class Cat implements Animal {  
+			
+			public void shout() {
+				System.out.println("ß÷ß÷¡­");
+				}
+			}
+		animalShout(new Cat());     
+			}
+	}
